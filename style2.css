@@ -1,7 +1,7 @@
 @charset "UFT-8";
 
 body{
-    background-image:linear-gradient(to right, grey, black) 
+    background-image:linear-gradient(to right, grey, black);
 } 
 h1{
     color: antiquewhite;
@@ -10,10 +10,8 @@ h1{
 .afacad-flux{
     font-family: "Afacad Flux", sans-serif;
     font-optical-sizing: auto;
-    font-weight: <weight>;
     font-style: normal;
-    font-variation-settings:
-      "slnt" 0;
+    
   }
 
 .text-center {
@@ -36,3 +34,30 @@ h1{
     justify-content: center;
     align-items: center;
 }
+
+#btn-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 16;
+}
+
+#btn-container #btn {
+    width: 32px;
+    height: 32px;
+    margin-top: 16;
+}
+
+button {
+    width: 200px;
+    height: 40px;
+    border-radius: 20px;
+    font-size: 18px;
+    text-decoration: none;
+    cursor: pointer;
+    font-family: "Afacad Flux", sans-serif;
+    color: black;
+    background-color: antiquewhite;
+    border-color: antiquewhite;
+    
+}    
